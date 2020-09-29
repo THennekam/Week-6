@@ -1,0 +1,87 @@
+body{
+
+	font-family: Arial;
+}
+
+
+
+p2{
+     
+	font-family: Arial;
+	background-color: #def6ed;
+
+  border-radius: 4px;
+
+	padding: 25px;
+	width: 25px;
+	height: 25px;
+}
+
+.Tip{
+	font-weight: bold;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: orange;
+  overflow: hidden;
+}
+
+
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar.hover{
+	color:green;
+}
+
+div{
+  width: 850px;
+  margin: 0 auto;
+}
+
+
+h1{
+  font-size: 36px;
+  line-height: 36px;
+}
+
+p{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+
+h2{
+  font-size: 32px;
+  line-height: 32px;
+}
+
+h3{
+  font-size: 32px;
+  line-height: 32px;
+}
+
+ul{
+  font-size:20px;
+  line-height: 26px;
+}
+
+ol{
+  font-size:20px;
+  line-height: 26px;
+}
+
+li{
+  margin-bottom: 10px;
+}
