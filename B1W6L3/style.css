@@ -1,27 +1,130 @@
+html, body { height: 100%; width: 100%}
+
+
+
+
+
+
 body{
 
 	font-family: Roboto, sans-serif;
   color: rgba(255, 255, 255, 0.8);
   background-image: url(header_bg.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 auto;
+  height: 100%; width: 100%
+  background-position: 50% 50%;
+  overflow: hidden;
 }
 
 
 .logo{
-  position: fixed;
-  top: 50%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 453px;
+  height: 233px;
+
+
+}
+
+a{
+  color: rgba(255, 255, 255, 0.8);
+  font-family: FontAwesome;
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #0077ff;
+  text-shadow: 5px 5px black;
+}
+
+.navbar{
+  position: absolute;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0 auto;
 
 }
 
-a{
-  color: rgba(255, 255, 255, 0.8);
+i{
+  font-size:50px;
+  display: inline-block;
+  width: 50px;
+  margin: 0 auto;
+  opacity: 50%;
+  font-style: normal;
 
 }
 
-a:hover{
-  color: cyan;
+span{
+  margin-top: 15px;
+  display: block;
+  font-size:20px;
+  font-family: Roboto, sans-serif;
+  width: 150px;
+
+
+}
+
+h1{
+  font-size: 40px;
+  position: fixed;
+  margin: 0 auto;
+  width: 850px;
+  height: 400px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   
+
+}
+
+p{
+  font-size: 20px;
+  position: fixed;
+  top: 25%;
+  left: 550px;
+  margin: 0 auto;
+  width: 840px;
+  height: 375px;
+  text-align: left;            
+
+
+}
+
+.balk{
+  background-color: white;
+  overflow: hidden;
+  height: 50px;
+    font-size: 15px;
+}
+
+.balk > a{
+  margin: 0 auto;
+  background-color: gray;
+  display: inline-block;
+  width: 50px;
+  font-size: 15px;
+  float: right;
+  margin-right: 5px;
+  text-align:center;
+
+}
+
+.balk > a:hover{
+  color: orange;
+
+}
+
+
+.div {
+  display: table-cell;
+  text-align:center;
+  vertical-align: middle;
 }
